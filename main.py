@@ -10,7 +10,7 @@ def index():
 
     @app.route("/sozluk")
     def sozluk():
-        dictionary = {"elma": "apple", "armut": "pear", "muz": "banana" "üzüm":"grape","portakal":"orange","mango":"mango","ananas":"pineapple","avakado":"avacado","çilek":"strawberry"}
+       dictionary = {"ADANA": "01", "ANKARA": "06", "SİVAS": "58","İSTANBUL":"34","ANTALYA":"07","BURSA":"16","ORDU":"52","İZMİR":"35","MARDİN":"47"}
         return render_template("sozluk.html", data=dictionary)
 
     def main():
